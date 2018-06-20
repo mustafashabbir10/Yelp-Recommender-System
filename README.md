@@ -4,8 +4,8 @@ In this work, I have created a recommendation system for restaurants using colla
 
 The outline of this work is as follows:
 
-    1. Create a database of item-item similarities. Use this to implement a neighborhood-based CF recommender that can answer simple questions like "give me more restaurants like this one". This part of the work assumes that the similaties calculated make good "global recommendations".
+   1. Create a database of item-item similarities. Use this to implement a neighborhood-based CF recommender that can answer simple questions like "give me more restaurants like this one". This part of the work assumes that the similaties calculated make good "global recommendations".
 
-    2. In the second part, I go one step further and attempt to predict the rating that a user will give an item they have not seen before. This requires that we find the restaurants that this user would rate as similar (not just those which are globally similar).
+   2. In the second part, I go one step further and attempt to predict the rating that a user will give an item they have not seen before. This requires that we find the restaurants that this user would rate as similar (not just those which are globally similar).
 
-    3. In the third part, I implement a factor-based CF recommender using a Bayesian model. While quite a bit more complex, this allows us to pool information both about similar users and about similar restaurants.
+   3. In the third part, I implement a factor-based CF recommender using a Bayesian model. While quite a bit more complex, this allows us to pool information both about similar users and about similar restaurants.
